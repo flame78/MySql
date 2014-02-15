@@ -1,0 +1,17 @@
+C:\Users\plamen\Source\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.dll
+C:\Users\plamen\Source\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.pdb
+C:\Users\plamen\Source\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.csprojResolveAssemblyReference.cache
+C:\Users\plamen\Source\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.dll
+C:\Users\plamen\Source\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.pdb
+C:\Users\Plamen\Documents\GitHub\TelerikAcademy\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.dll
+C:\Users\Plamen\Documents\GitHub\TelerikAcademy\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.pdb
+C:\Users\Plamen\Documents\GitHub\TelerikAcademy\ConsoleApplication1\MySqlTransfer\bin\Debug\MySql.Data.dll
+C:\Users\Plamen\Documents\GitHub\TelerikAcademy\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\GitHub\TelerikAcademy\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.dll
+C:\Users\Plamen\Documents\GitHub\TelerikAcademy\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.pdb
+C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.dll
+C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.dll
+C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.pdb
+C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\bin\Debug\MySql.Data.dll
+C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.pdb
