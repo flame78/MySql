@@ -1,0 +1,256 @@
+2/16/2014 12:05:18 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 122
+2/16/2014 12:34:28 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 122
+2/16/2014 12:35:34 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 132
+2/16/2014 1:04:08 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 137
+2/16/2014 1:08:01 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 136
+2/16/2014 1:08:21 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 136
+2/16/2014 1:08:24 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 136
+2/16/2014 1:08:59 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 136
+2/16/2014 1:12:11 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 134
+2/16/2014 1:12:21 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Can't create database 'test'; database exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 134
+2/16/2014 1:13:13 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByte()
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.DatFile(String server, String dBName, String table, String user, String pass, String path) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 63
+2/16/2014 1:13:54 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 91
+2/16/2014 1:14:00 PM
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 134
+2/16/2014 1:14:01 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 91
+2/16/2014 1:14:04 PM
+System.InvalidOperationException: The connection is not open.
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at MySqlTransfer.DatFile(String server, String dBName, String table, String user, String pass, String path) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 25
+2/16/2014 1:14:49 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 91
+2/16/2014 1:15:12 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 92
+2/16/2014 1:15:25 PM
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 135
+2/16/2014 1:15:26 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 92
+2/16/2014 1:15:38 PM
+System.InvalidOperationException: The connection is not open.
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at MySqlTransfer.DatFile(String server, String dBName, String table, String user, String pass, String path) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 25
+2/16/2014 1:15:44 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 92
+2/16/2014 1:15:44 PM
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 135
+2/16/2014 1:15:45 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 92
+2/16/2014 1:15:45 PM
+System.InvalidOperationException: The connection is not open.
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at MySqlTransfer.DatFile(String server, String dBName, String table, String user, String pass, String path) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 25
+2/16/2014 1:15:49 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 92
+2/16/2014 1:15:49 PM
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySqlTransfer.CreateMyDbTbl(String server, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 135
+2/16/2014 1:15:50 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:3306
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at MySql.Data.Common.StreamCreator.CreateSocketStream(IPAddress ip, Boolean unix)
+   at MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySqlTransfer.OpenConnection(String server, String dBName, String user, String pass) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 92
+2/16/2014 1:15:50 PM
+System.InvalidOperationException: The connection is not open.
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at MySqlTransfer.DatFile(String server, String dBName, String table, String user, String pass, String path) in c:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\MySqlTransfer.cs:line 25

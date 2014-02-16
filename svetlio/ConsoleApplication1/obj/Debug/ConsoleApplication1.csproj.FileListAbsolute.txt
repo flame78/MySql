@@ -24,3 +24,6 @@ C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\ConsoleApplication1\b
 C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\ConsoleApplication1\bin\Debug\MySql.Data.dll
 C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\ConsoleApplication1\bin\Debug\MySqlTransfer.pdb
 C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

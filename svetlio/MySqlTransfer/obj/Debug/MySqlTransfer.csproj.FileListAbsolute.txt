@@ -15,3 +15,9 @@ C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\bin\Deb
 C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\bin\Debug\MySqlTransfer.pdb
 C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\bin\Debug\MySql.Data.dll
 C:\Users\Plamen\Documents\GitHub\MySql\ConsoleApplication1\MySqlTransfer\obj\Debug\MySqlTransfer.pdb
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\bin\Debug\MySqlTransfer.dll
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\bin\Debug\MySqlTransfer.pdb
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\bin\Debug\MySql.Data.dll
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\obj\Debug\MySqlTransfer.csprojResolveAssemblyReference.cache
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\obj\Debug\MySqlTransfer.dll
+C:\Users\Plamen\Documents\GitHub\MySql\svetlio\MySqlTransfer\obj\Debug\MySqlTransfer.pdb

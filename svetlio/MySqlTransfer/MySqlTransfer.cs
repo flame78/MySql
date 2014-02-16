@@ -1,24 +1,28 @@
-﻿
-using MySql.Data.MySqlClient;
-using System.Data;
+﻿using MySql.Data.MySqlClient;
 using System.IO;
 using System.Collections.Generic;
 using System;
 
 static public class MySqlTransfer
 {
-    static public void DatFile(string server, string dBName, string table, string user, string pass)
+
+    static public void DatFile(string server, string dBName, string table, string user, string pass, string path)
     {
         MySqlConnection conn;
         StreamReader reader;
         Queue<string> lines = new Queue<string>();
+        MySqlTransaction sqlTran = null;
+        MySqlCommand cmd;
 
         try
         {
-            DirectoryInfo di = new DirectoryInfo(@"..\..\");
+            DirectoryInfo di = new DirectoryInfo(path);
             var directories = di.GetFiles("*.dat", SearchOption.TopDirectoryOnly);
 
+
             conn = OpenConnection(server, dBName, user, pass);
+            cmd = new MySqlCommand("SET autocommit = 0", conn);
+            sqlTran = conn.BeginTransaction();
 
             foreach (var file in directories)
             {
@@ -32,6 +36,7 @@ static public class MySqlTransfer
                     }
                 }
 
+
                 while (lines.Count > 0)
                 {
                     string[] tokens = new string[8];
@@ -42,7 +47,8 @@ static public class MySqlTransfer
                         tokens[i] = tokens[i].Trim();
                     }
 
-                    MySqlCommand cmd = new MySqlCommand(string.Format("insert into {0} (GameEnd,GameType,Price,Discount,GameTime,Operator,GameTable,Comments) values(@GameEnd,@GameType,@Price,@Discount,@GameTime,@Operator,@GameTable,@Comments)", table), conn);
+                    cmd = new MySqlCommand(string.Format("insert into {0} (GameEnd,GameType,Price,Discount,GameTime,Operator,GameTable,Comments) values(@GameEnd,@GameType,@Price,@Discount,@GameTime,@Operator,@GameTable,@Comments)", table), conn, sqlTran);
+
 
                     cmd.Parameters.Add("@GameEnd", MySqlDbType.DateTime).Value = tokens[0];
                     cmd.Parameters.Add("@GameType", MySqlDbType.Text).Value = tokens[1];
@@ -56,13 +62,20 @@ static public class MySqlTransfer
 
                     cmd.ExecuteNonQuery();
                 }
-                File.Move(file.FullName, file.FullName + ".proc");
+                sqlTran.Commit();
+                //File.Move(file.FullName, file.FullName + ".proc");
             }
             conn.Close();
         }
-        catch (Exception)
+        catch (MySqlException ex)
         {
-            Console.WriteLine("Bum");
+            WriteError(ex);
+            try { sqlTran.Rollback(); conn.Close(); }
+            catch { }
+        }
+        catch (Exception ex)
+        {
+            WriteError(ex);
         }
     }
 
@@ -78,23 +91,33 @@ static public class MySqlTransfer
             result = new MySqlConnection(connStr);
             result.Open();
         }
-        catch (MySqlException ex)
+        catch (Exception ex)
         {
-            Console.WriteLine("Error connecting to the server: " + ex.Message);
+            WriteError(ex);
         }
 
         return result;
+    }
+
+    private static void WriteError(Exception ex)
+    {
+        StreamWriter logFile = new StreamWriter("log.txt", true);
+        using (logFile)
+        {
+            logFile.WriteLine(DateTime.Now.ToString());
+            logFile.WriteLine(ex.ToString());
+        }
     }
 
     static public void CreateMyDbTbl(string server, string user, string pass)
     {
         MySqlConnection conn;
 
-       
-            conn = OpenConnection(server, "", user, pass);
 
-            try
-            {
+        conn = OpenConnection(server, "", user, pass);
+
+        try
+        {
             MySqlCommand cmd = new MySqlCommand(@"CREATE DATABASE `test` /*!40100 DEFAULT CHARACTER SET latin1 */;
             CREATE TABLE  `test`.`tbl` (
              `ID` int(11) NOT NULL AUTO_INCREMENT,
@@ -110,17 +133,13 @@ static public class MySqlTransfer
            ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Events';", conn);
 
             cmd.ExecuteNonQuery();
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Ne stava :) Ve4e ima takava baza");
-            }
+        }
+        catch (Exception ex)
+        {
+            WriteError(ex);
+        }
 
-            conn.Close();
-        
-
-        
-
-        
+        conn.Close();
     }
+
 }
